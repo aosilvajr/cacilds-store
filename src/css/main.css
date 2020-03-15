@@ -1,4 +1,99 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap");
+.contact .input-group .input-control {
+  background: #fff;
+  border-radius: 100px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #888;
+  letter-spacing: 0.11px;
+  width: 420px;
+  height: 50px;
+  padding: 0 30px;
+}
+
+.contact .input-group button {
+  background: #ef0000;
+  border-radius: 100px;
+  height: 50px;
+  width: 170px;
+  margin-left: 10px;
+  border: none;
+}
+
+.categories .card-group {
+  background: #fff;
+  margin-top: 3.5rem;
+  padding: 0.5rem 3rem;
+  border-radius: 0.4rem;
+}
+
+.categories .card-group h2 {
+  margin: 0.5rem 0;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+.categories .card-group .card {
+  cursor: pointer;
+  margin: 0 0.1rem;
+}
+
+.categories .card-group .card img {
+  height: 12.5rem;
+  border-radius: 0.5rem;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transition: -webkit-transform 0.3s ease-in-out, -webkit-filter 1.3s ease-in-out;
+  transition: -webkit-transform 0.3s ease-in-out, -webkit-filter 1.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, filter 1.3s ease-in-out;
+  transition: transform 0.3s ease-in-out, filter 1.3s ease-in-out, -webkit-transform 0.3s ease-in-out, -webkit-filter 1.3s ease-in-out;
+}
+
+.categories .card-group .card img:hover {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  -webkit-transform: scale(1.1) rotate(1.6deg);
+          transform: scale(1.1) rotate(1.6deg);
+}
+
+.categories .card-group .card .card-body {
+  padding: 0.7rem;
+  text-align: center;
+}
+
+.categories .card-group .card .card-body .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+:root {
+  --light-gray: #2b3032a1;
+  --primary-color: #45ccb8;
+  --border: #2b303218;
+  --text-color: #ff686b;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #efefef;
+  font-family: "Nunito Sans", sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased !important;
+}
+
 nav {
   background-color: var(--primary-color);
 }
@@ -27,32 +122,71 @@ nav .icons {
       align-self: center;
 }
 
-:root {
-  --light-gray: #2b3032a1;
-  --primary-color: #45ccb8;
-  --border: #2b303218;
-  --text-color: #ff686b;
+.products {
+  margin: 5rem 0;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  outline: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+.products .product-title {
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
-html {
-  height: 100vh;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+.products .product-title h2 {
+  font-size: 2.3rem;
+  font-weight: 600;
 }
 
-body {
-  background: #ecf1f8;
-  font-family: "Nunito Sans", sans-serif;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased !important;
+.products .product-title p {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.products .card {
+  cursor: pointer;
+  padding: 0.5rem;
+  background: #fff;
+  text-align: center;
+  border-radius: 0.3rem;
+  border: 1px solid rgba(85, 85, 85, 0.39);
+}
+
+.products .card img {
+  -webkit-transition: -webkit-transform 0.4s ease-in-out;
+  transition: -webkit-transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out;
+  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+}
+
+.products .card img:hover {
+  -webkit-transform: scale(0.9) rotate(1.5deg);
+          transform: scale(0.9) rotate(1.5deg);
+}
+
+.products .card .card-body {
+  margin-top: 0.5rem;
+}
+
+.products .card .card-body .card.title {
+  font-weight: 400;
+}
+
+.products .card .card-body .price {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.products .card a {
+  font-size: 1rem;
+  color: #858585;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.products .card a ion-icon {
+  top: 6px;
+  left: 2px;
+  font-size: 1.5rem;
+  position: relative;
 }
 
 .nav {

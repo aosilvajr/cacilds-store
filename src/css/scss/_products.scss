@@ -1,0 +1,62 @@
+.products {
+  margin: 5rem 0;
+
+  .product-title {
+    text-align: center;
+    margin-bottom: 2rem;
+
+    h2 {
+      font-size: 2.3rem;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+  }
+
+  .card {
+    cursor: pointer;
+    padding: 0.5rem;
+    background: #fff;
+    text-align: center;
+    border-radius: 0.3rem;
+    border: 1px solid rgba(85, 85, 85, 0.39);
+
+    img {
+      transition: transform 0.4s ease-in-out;
+
+      &:hover {
+        transform: scale(0.9) rotate(1.5deg);
+      }
+    }
+
+    .card-body {
+      margin-top: 0.5rem;
+
+      .card.title {
+        font-weight: 400;
+      }
+
+      .price {
+        font-weight: 400;
+        font-size: 1.2rem;
+      }
+    }
+
+    a {
+      font-size: 1rem;
+      color: #858585;
+      font-weight: 600;
+      text-decoration: none;
+
+      ion-icon {
+        top: 6px;
+        left: 2px;
+        font-size: 1.5rem;
+        position: relative;
+      }
+    }
+  }
+}
