@@ -2,120 +2,172 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/main.css">
-  <!-- Slick CSS -->
-  <link rel="stylesheet" href="../node_modules/slick-carousel/slick/slick.css">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/main.css">
 
-  <title>Desafio Jurunense</title>
+	<title>Desafio Jurunense</title>
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-expand-lg">
-      <span class="navbar-brand" href="#">Desafio Store</span>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+	<header>
+		<nav class="navbar navbar-expand">
+			<span class="navbar-brand" href="#">Desafio Store</span>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Criar Conta</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Criar Conta</a>
+				</li>
+			</ul>
+		</nav>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+		<nav class="navbar navbar-expand bg-light navbar-light border-bottom">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Produtos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Promoções</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contato</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sobre Nós</a>
+				</li>
+			</ul>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Produtos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Promoções</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Sobre Nós</a>
-          </li>
-        </ul>
-      </div>
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<ion-icon class="icons" name="cart-outline"></ion-icon>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">
+						<ion-icon class="icons" name="search-outline"></ion-icon>
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
 
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <ion-icon class="icons" name="cart-outline"></ion-icon>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">
-            <ion-icon class="icons" name="search-outline"></ion-icon>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+	<section>
+		<div id="carousel" class="carousel slide" data-ride="carousel" data-touch="true">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel" data-slide-to="0" class="active"></li>
+				<li data-target="#carousel" data-slide-to="1"></li>
+				<li data-target="#carousel" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="assets/teste (1).gif" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="assets/teste (1).png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="assets/teste (2).png" class="d-block w-100" alt="...">
+				</div>
+			</div>
+			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			</a>
+			<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			</a>
+		</div>
+	</section>
 
-  <section>
-    <div class="carousel">
-      <div class="carousel-image-container">
-        <div>
-          <img src="./assets/teste (1).gif" class="img-fluid" alt="Banner 1">
-        </div>
-        <div>
-          <img src="./assets/teste (1).png" class="img-fluid" alt="Banner 2">
-        </div>
-        <div>
-          <img src="./assets/teste (2).png" class="img-fluid" alt="Banner 3">
-        </div>
-      </div>
+	<main>
+		<div class="container">
+			<div class="card-group pt-4">
+				<div class="row">
+					<div class="col-2">
+						<div class="card">
+							<img src="assets/item (1).jpg" class="d-block w-100 card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						</div>
+					</div>
 
-      <div class="carousel-btn">
-        <span class="prev">
-          <ion-icon name="arrow-undo-outline"></ion-icon>
-        </span>
+					<div class="col-2">
+						<div class="card">
+							<img src="assets/item (4).jpg" class="d-block w-100 card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						</div>
+					</div>
 
-        <span class="next right">
-          <ion-icon name="arrow-redo-outline"></ion-icon>
-        </span>
-      </div>
-    </div>
-  </section>
+					<div class="col-2">
+						<div class="card">
+							<img src="assets/item (7).jpg" class="d-block w-100 card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						</div>
+					</div>
 
-  <footer>
+					<div class="col-2">
+						<div class="card">
+							<img src="assets/item (19).jpg" class="d-block w-100 card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						</div>
+					</div>
 
-  </footer>
+					<div class="col-2">
+						<div class="card">
+							<img src="assets/item (19).jpg" class="d-block w-100 card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						</div>
+					</div>
 
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-  <!-- Ionicons -->
-  <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
-  <!-- Slick -->
-  <script src="../node_modules/slick-carousel/slick/slick.min.js"></script>
-  <!-- Optional JavaScript -->
-  <script src="./js/main.js"></script>
+					<div class="col-2">
+						<div class="card">
+							<img src="assets/item (19).jpg" class="d-block w-100 card-img-top" alt="...">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+
+	</footer>
+
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<!-- Ionicons -->
+	<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+	<!-- Optional JavaScript -->
+	<script src="./js/main.js"></script>
 </body>
 
 </html>
