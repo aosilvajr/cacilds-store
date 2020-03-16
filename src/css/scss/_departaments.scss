@@ -7,7 +7,7 @@
 
     h2 {
       margin: 0.5rem 0;
-      font-weight: 600;
+      font-weight: 500;
       font-size: 1.5rem;
     }
 
@@ -23,7 +23,7 @@
 
 				&:hover {
 					filter: grayscale(0);
-					transform: scale(1.1) rotate(1.6deg);
+					transform: scale(1.1);
 				}
       }
 
