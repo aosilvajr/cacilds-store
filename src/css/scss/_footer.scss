@@ -1,0 +1,41 @@
+footer {
+  color: #999;
+
+  .footer-wrapper {
+    padding: 3rem 0;
+
+    .footer-title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--primary-color);
+    }
+
+    h2 {
+      color: #000;
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: none;
+
+      a {
+        color: #999;
+        font-size: 0.9rem;
+        font-weight: 500;
+        line-height: 1.7;
+        text-decoration: none;
+        transition: padding-left 0.25s ease-in;
+
+        &:hover {
+          padding-left: 1rem;
+        }
+      }
+    }
+  }
+
+  p {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 0.5rem 0 1rem 0;
+  }
+}
