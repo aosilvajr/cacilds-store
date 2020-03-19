@@ -82,6 +82,90 @@
   font-weight: 600;
 }
 
+.details {
+  padding: 2rem;
+  background: #fff;
+  border-radius: 0.3rem;
+}
+
+.details .tag {
+  width: 25%;
+  color: #fff;
+  padding: 0.2rem;
+  font-weight: 700;
+  font-size: 0.9rem;
+  border-radius: 0.2rem;
+  background: var(--orange);
+}
+
+.details .infos {
+  margin-top: 0.5rem;
+}
+
+.details .infos .title {
+  color: #666;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.details .infos .code {
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.details .infos .price {
+  font-weight: 700;
+  color: #cc7423;
+  font-size: 2rem;
+  margin-top: 500px;
+}
+
+.details .infos .credit-card {
+  color: #db812d;
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.details input {
+  width: 3.5rem;
+  padding: 0.6rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.details button {
+  border: none;
+  width: 30%;
+  height: 40px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  background: var(--orange);
+}
+
+.details .description {
+  margin-top: 1.5rem;
+}
+
+.details .description h2 {
+  color: #777;
+  font-size: 0.9rem;
+  margin-top: 0.1rem;
+}
+
+.details .description p {
+  color: #777;
+  font-size: 0.9rem;
+}
+
 footer {
   color: #999;
 }
