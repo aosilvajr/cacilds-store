@@ -1,5 +1,5 @@
 nav {
-  background-color: var(--primary-color);
+  background-color: var(--blue);
 
   .navbar-brand {
     color: #fff;
@@ -8,15 +8,15 @@ nav {
 
   .nav-link {
     color: #fff;
-		font-weight: 600;
+    font-weight: 600;
     text-decoration: none;
   }
 
   .icons {
-    color: #333;
     display: flex;
-    font-size: 23px;
+    font-size: 25px;
     cursor: pointer;
     align-self: center;
+    color: var(--orange);
   }
 }

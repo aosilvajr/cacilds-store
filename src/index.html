@@ -66,7 +66,7 @@
 	</header>
 
 	<section>
-		<div id="carousel" class="carousel slide" data-ride="carousel" data-touch="true">
+		<div id="carousel" class="carousel slide fade" data-ride="carousel" data-touch="true">
 			<ol class="carousel-indicators">
 				<li data-target="#carousel" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel" data-slide-to="1"></li>
@@ -74,13 +74,16 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<img src="assets/teste (1).gif" class="d-block w-100" alt="...">
+					<img src="assets/slides/smartwatch.png" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item">
-					<img src="assets/teste (1).png" class="d-block w-100" alt="...">
+					<img src="assets/slides/notebook.png" class="d-block w-100" alt="...">
 				</div>
 				<div class="carousel-item">
-					<img src="assets/teste (2).png" class="d-block w-100" alt="...">
+					<img src="assets/slides/console.png" class="d-block w-100" alt="...">
+				</div>
+				<div class="carousel-item">
+					<img src="assets/slides/higiene.png" class="d-block w-100" alt="...">
 				</div>
 			</div>
 			<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
@@ -101,16 +104,7 @@
 					<div class="row">
 						<div class="col-2">
 							<div class="card">
-								<img src="assets/item (1).jpg" class="d-block w-100 card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Smartwatchs</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-2">
-							<div class="card">
-								<img src="assets/item (4).jpg" class="d-block w-100 card-img-top" alt="...">
+								<img src="assets/departments/acessorios.png" class="d-block w-100 card-img-top" alt="...">
 								<div class="card-body">
 									<h5 class="card-title">Acessórios</h5>
 								</div>
@@ -119,36 +113,45 @@
 
 						<div class="col-2">
 							<div class="card">
-								<img src="assets/item (7).jpg" class="d-block w-100 card-img-top" alt="...">
+								<img src="assets/departments/calcados.png" class="d-block w-100 card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Calçados</h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-2">
+							<div class="card">
+								<img src="assets/departments/decoracao.png" class="d-block w-100 card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Decoração</h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-2">
+							<div class="card">
+								<img src="assets/departments/fones.png" class="d-block w-100 card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Headsets</h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-2">
+							<div class="card">
+								<img src="assets/departments/moda.png" class="d-block w-100 card-img-top" alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Moda</h5>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-2">
+							<div class="card">
+								<img src="assets/departments/perfumes.png" class="d-block w-100 card-img-top" alt="...">
 								<div class="card-body">
 									<h5 class="card-title">Perfumes</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-2">
-							<div class="card">
-								<img src="assets/item (19).jpg" class="d-block w-100 card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Tênis</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-2">
-							<div class="card">
-								<img src="assets/item (21).jpg" class="d-block w-100 card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Cadeiras</h5>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-2">
-							<div class="card">
-								<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
-								<div class="card-body">
-									<h5 class="card-title">Mochilas</h5>
 								</div>
 							</div>
 						</div>
@@ -170,6 +173,7 @@
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -185,6 +189,7 @@
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -200,6 +205,7 @@
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -211,12 +217,18 @@
 
 					<div class="col-3">
 						<div class="card shadow-lg">
-							<div class="zooom">
+							<div class="offer">
+								<ion-icon name="pricetags-outline"></ion-icon>
+								<h2>Oferta</h2>
+							</div>
+
+							<div>
 								<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 							</div>
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -238,10 +250,16 @@
 				<div class="row">
 					<div class="col-3">
 						<div class="card shadow-lg">
+							<div class="offer">
+								<ion-icon name="pricetags-outline"></ion-icon>
+								<h2>Oferta</h2>
+							</div>
+
 							<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -253,10 +271,16 @@
 
 					<div class="col-3">
 						<div class="card shadow-lg">
+							<div class="offer">
+								<ion-icon name="pricetags-outline"></ion-icon>
+								<h2>Oferta</h2>
+							</div>
+
 							<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -268,10 +292,16 @@
 
 					<div class="col-3">
 						<div class="card shadow-lg">
+							<div class="offer">
+								<ion-icon name="pricetags-outline"></ion-icon>
+								<h2>Oferta</h2>
+							</div>
+
 							<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -283,12 +313,18 @@
 
 					<div class="col-3">
 						<div class="card shadow-lg">
-							<div class="zooom">
+							<div class="offer">
+								<ion-icon name="pricetags-outline"></ion-icon>
+								<h2>Oferta</h2>
+							</div>
+
+							<div>
 								<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 							</div>
 							<div class="card-body">
 								<h5 class="card-title">Mochila Para Acampamento</h5>
 								<span class="price">R$ 59,99</span>
+								<p class="credit-card">ou 1x de 21,90</p>
 							</div>
 
 							<a href="#">
@@ -381,9 +417,9 @@
 			</div>
 
 			<div class="d-flex justify-content-center">
-				<img src="assets/cads/visa.png" alt="Visa">
-				<img src="assets/cads/mastercard.png" alt="Mastercard">
-				<img src="assets/cads/boleto.png" alt="Boleto">
+				<img src="assets/cards/visa.png" alt="Visa">
+				<img src="assets/cards/mastercard.png" alt="Mastercard">
+				<img src="assets/cards/boleto.png" alt="Boleto">
 			</div>
 
 			<p>Cacilds Store &copy; 2020. Todos os Direitos Reservados</p>

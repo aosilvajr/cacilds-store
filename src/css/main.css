@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&display=swap");
 .contact {
   color: #fff;
-  padding: 5rem 0;
+  padding: 6rem 0;
   text-align: center;
-  background: var(--primary-color);
+  background: var(--blue);
 }
 
 .contact .contact-header {
@@ -26,14 +26,14 @@
   border: none;
   width: 150px;
   height: 40px;
+  color: #fff;
   cursor: pointer;
   font-weight: 600;
   font-size: 0.9rem;
-  background: #fff;
   margin-left: 0.2rem;
   border-radius: 50rem;
+  background: var(--orange);
   text-transform: uppercase;
-  color: var(--primary-color);
 }
 
 .categories .card-group {
@@ -57,8 +57,8 @@
 .categories .card-group .card img {
   height: 12.5rem;
   border-radius: 0.5rem;
-  -webkit-filter: grayscale(100%);
-          filter: grayscale(100%);
+  -webkit-filter: grayscale(70%);
+          filter: grayscale(70%);
   -webkit-transition: -webkit-transform 0.3s ease-in-out, -webkit-filter 1.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out, -webkit-filter 1.3s ease-in-out;
   transition: transform 0.3s ease-in-out, filter 1.3s ease-in-out;
@@ -91,14 +91,14 @@ footer .footer-wrapper {
 }
 
 footer .footer-wrapper .footer-title {
-  font-size: 1.5rem;
   font-weight: 600;
-  color: var(--primary-color);
+  font-size: 1.5rem;
+  color: var(--orange);
 }
 
 footer .footer-wrapper h2 {
-  color: #000;
   font-weight: 600;
+  color: var(--orange);
 }
 
 footer .footer-wrapper ul {
@@ -126,10 +126,8 @@ footer p {
 }
 
 :root {
-  --light-gray: #2b3032a1;
-  --primary-color: #45ccb8;
-  --border: #2b303218;
-  --text-color: #ff686b;
+  --blue: #313B8C;
+  --orange: #E69318;
 }
 
 * {
@@ -154,7 +152,7 @@ body {
 }
 
 nav {
-  background-color: var(--primary-color);
+  background-color: var(--blue);
 }
 
 nav .navbar-brand {
@@ -169,14 +167,14 @@ nav .nav-link {
 }
 
 nav .icons {
-  color: #333;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 23px;
+  font-size: 25px;
   cursor: pointer;
   -ms-flex-item-align: center;
       align-self: center;
+  color: var(--orange);
 }
 
 .products {
@@ -189,13 +187,15 @@ nav .icons {
 }
 
 .products .product-title h2 {
-  font-size: 2.3rem;
   font-weight: 600;
+  font-size: 2.3rem;
+  color: var(--orange);
 }
 
 .products .product-title p {
-  font-size: 0.9rem;
+  color: #777;
   font-weight: 400;
+  font-size: 0.9rem;
 }
 
 .products .card {
@@ -205,6 +205,28 @@ nav .icons {
   text-align: center;
   border-radius: 0.3rem;
   border: 1px solid rgba(85, 85, 85, 0.39);
+}
+
+.products .card .offer {
+  z-index: 5;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 0.6rem;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.3rem;
+  padding: 0.2rem 0.4rem;
+  margin: 0.5rem 0 0 0.5rem;
+  background-color: #e9320d;
+}
+
+.products .card .offer ion-icon {
+  font-size: 1rem;
+  margin-right: 0.2rem;
 }
 
 .products .card img {
@@ -220,30 +242,52 @@ nav .icons {
 }
 
 .products .card .card-body {
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
 }
 
-.products .card .card-body .card.title {
+.products .card .card-body h5 {
+  color: #666;
   font-weight: 400;
+  font-size: 0.83rem;
+  margin-bottom: 0.2rem;
 }
 
 .products .card .card-body .price {
-  font-weight: 400;
+  font-weight: 700;
+  color: #cc7423;
   font-size: 1.2rem;
 }
 
+.products .card .card-body .credit-card {
+  color: #db812d;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
 .products .card a {
+  width: 60%;
+  color: #fff;
+  display: block;
   font-size: 1rem;
-  color: #858585;
   font-weight: 600;
+  margin: 0.5rem auto;
+  border-radius: 0.3rem;
   text-decoration: none;
+  padding: 0.3rem 0.6rem;
+  background-color: var(--orange);
+  -webkit-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
 }
 
 .products .card a ion-icon {
-  top: 6px;
+  top: 4px;
   left: 2px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   position: relative;
+}
+
+.products .card a:hover {
+  background-color: #c27707;
 }
 
 .nav {

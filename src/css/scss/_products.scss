@@ -6,13 +6,15 @@
     margin-bottom: 2rem;
 
     h2 {
-      font-size: 2.3rem;
       font-weight: 600;
+      font-size: 2.3rem;
+      color: var(--orange);
     }
 
     p {
-      font-size: 0.9rem;
+      color: #777;
       font-weight: 400;
+      font-size: 0.9rem;
     }
   }
 
@@ -24,6 +26,24 @@
     border-radius: 0.3rem;
     border: 1px solid rgba(85, 85, 85, 0.39);
 
+    .offer {
+      z-index: 5;
+      color: #fff;
+      display: flex;
+      font-size: 0.6rem;
+      position: absolute;
+      align-items: center;
+      border-radius: 0.3rem;
+      padding: 0.2rem 0.4rem;
+      margin: 0.5rem 0 0 0.5rem;
+      background-color: #e9320d;
+
+      ion-icon {
+        font-size: 1rem;
+        margin-right: 0.2rem;
+      }
+    }
+
     img {
       transition: transform 0.4s ease-in-out;
 
@@ -33,29 +53,50 @@
     }
 
     .card-body {
-      margin-top: 0.5rem;
+      margin: 0.5rem 0;
 
-      .card.title {
+      h5 {
+        color: #666;
         font-weight: 400;
+        font-size: 0.83rem;
+        margin-bottom: 0.2rem;
       }
 
       .price {
-        font-weight: 400;
+        font-weight: 700;
+        color: #cc7423;
         font-size: 1.2rem;
+      }
+
+      .credit-card {
+        color: #db812d;
+        font-weight: 700;
+        font-size: 0.8rem;
       }
     }
 
     a {
+      width: 60%;
+      color: #fff;
+      display: block;
       font-size: 1rem;
-      color: #858585;
       font-weight: 600;
+      margin: 0.5rem auto;
+      border-radius: 0.3rem;
       text-decoration: none;
+      padding: 0.3rem 0.6rem;
+      background-color: var(--orange);
+      transition: background-color 0.5s ease-in-out;
 
       ion-icon {
-        top: 6px;
+        top: 4px;
         left: 2px;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         position: relative;
+      }
+
+      &:hover {
+        background-color: rgb(194, 119, 7);
       }
     }
   }

@@ -1,11 +1,11 @@
 .contact {
   color: #fff;
-  padding: 5rem 0;
+  padding: 6rem 0;
   text-align: center;
-  background: var(--primary-color);
+  background: var(--blue);
 
   .contact-header {
-    margin-bottom: 1.5rem ;
+    margin-bottom: 1.5rem;
   }
 
   .input-group {
@@ -25,14 +25,14 @@
       border: none;
       width: 150px;
       height: 40px;
+      color: #fff;
       cursor: pointer;
       font-weight: 600;
       font-size: 0.9rem;
-      background: #fff;
       margin-left: 0.2rem;
       border-radius: 50rem;
+      background: var(--orange);
       text-transform: uppercase;
-      color: var(--primary-color);
     }
   }
 }
