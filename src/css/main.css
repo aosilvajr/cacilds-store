@@ -37,7 +37,7 @@
 }
 
 .categories .card-group {
-  margin-top: 2rem;
+  margin-top: 2.8rem;
   background: #fff;
   padding: 0.5rem 3rem;
   border-radius: 0.4rem;
@@ -178,6 +178,7 @@ footer .footer-wrapper .footer-title {
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--orange);
+  text-decoration: none;
 }
 
 footer .footer-wrapper h2 {
@@ -240,7 +241,7 @@ nav {
 }
 
 nav .navbar-toggler {
-  border: 2px solid #e67413;
+  border: 1px solid #fff;
   background-color: transparent;
 }
 
@@ -251,12 +252,15 @@ nav .navbar-toggler ion-icon {
 
 nav .navbar-brand {
   color: #fff;
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.4rem;
+  text-decoration: none;
 }
 
 nav .underline .nav-item .nav-link {
   color: #fff;
   font-weight: 600;
+  font-size: 1.1rem;
   text-decoration: none;
 }
 
@@ -274,15 +278,18 @@ nav .underline .nav-item .nav-link:hover:after {
   width: 100%;
 }
 
-nav ion-icon {
+nav .orange-icons {
+  color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 30px;
+  padding: 0.5rem;
+  font-size: 25px;
   cursor: pointer;
   -ms-flex-item-align: center;
       align-self: center;
-  color: var(--orange);
+  border-radius: 0.8rem;
+  background-color: #e67413;
 }
 
 @media (max-width: 992px) {
@@ -380,6 +387,7 @@ nav ion-icon {
   font-weight: 400;
   font-size: 0.9rem;
   margin-top: 0.5rem;
+  line-height: 0.8;
 }
 
 .products .card {
