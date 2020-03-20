@@ -10,8 +10,8 @@
 
   .input-group {
     .input-control {
+      width: 50%;
       border: none;
-      width: 420px;
       height: 40px;
       color: #888;
       padding: 0 30px;
@@ -23,12 +23,12 @@
 
     button {
       border: none;
-      width: 150px;
+      width: 125px;
       height: 40px;
       color: #fff;
       cursor: pointer;
       font-weight: 600;
-      font-size: 0.9rem;
+      font-size: 0.8rem;
       margin-left: 0.2rem;
       border-radius: 50rem;
       background: var(--orange);

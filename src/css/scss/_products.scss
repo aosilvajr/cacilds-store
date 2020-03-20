@@ -1,5 +1,5 @@
 .products {
-  margin: 5rem 0;
+  margin: 2.5rem 0;
 
   .product-title {
     text-align: center;
@@ -9,12 +9,22 @@
       font-weight: 600;
       font-size: 2.3rem;
       color: var(--orange);
+
+      &:after {
+        content: "";
+				height: 2px;
+				width: 100px;
+        display: block;
+				margin: 0 auto 1rem;
+        background-color: var(--orange);
+      }
     }
 
     p {
       color: #777;
-      font-weight: 400;
+			font-weight: 400;
       font-size: 0.9rem;
+			margin-top: 0.5rem;
     }
   }
 

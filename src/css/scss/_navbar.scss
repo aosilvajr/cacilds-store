@@ -1,22 +1,113 @@
 nav {
   background-color: var(--blue);
 
+  .navbar-toggler {
+    border: 2px solid #e67413;
+    background-color: transparent;
+
+    ion-icon {
+      color: #fff;
+      font-size: 2rem;
+    }
+  }
+
   .navbar-brand {
     color: #fff;
     font-weight: 600;
   }
 
-  .nav-link {
-    color: #fff;
-    font-weight: 600;
-    text-decoration: none;
+  .underline {
+    .nav-item {
+      .nav-link {
+        color: #fff;
+        font-weight: 600;
+        text-decoration: none;
+
+        &:after {
+          content: "";
+          width: 0%;
+          height: 2px;
+          display: block;
+          background-color: var(--orange);
+          transition: width 0.5s ease-in-out;
+        }
+
+        &:hover:after {
+          width: 100%;
+        }
+      }
+    }
   }
 
-  .icons {
+  ion-icon {
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
     align-self: center;
     color: var(--orange);
+	}
+}
+
+@media (max-width: 992px) {
+  .collapse,
+  .navbar-collapse {
+    display: none;
+  }
+
+  .mobile {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 50;
+    width: 270px;
+    color: #fff;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    transition: all ease 0.25s;
+    transform: translateX(100%);
+    background-color: var(--orange);
+
+    .nav-item {
+      .nav-link {
+        color: #fff;
+        margin: 0.4rem 0;
+        text-align: center;
+        transition: all 0.5s ease;
+
+        ion-icon {
+          color: #fff;
+          font-size: 2rem;
+          // Top, Horizontal, Bottom
+          margin: 0.5rem 0.8rem 0;
+        }
+      }
+    }
+
+    &.open {
+      transform: translateX(0);
+    }
+  }
+
+  .overlay {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+
+    &.open {
+      display: block;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .carousel {
+    display: none;
   }
 }
