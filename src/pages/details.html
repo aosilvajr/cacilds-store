@@ -7,60 +7,56 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="../css/main.css">
 
 	<title>Cacilds Store | Detalhes</title>
 </head>
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand">
+		<nav class="navbar navbar-expand-lg">
 			<div class="container">
-				<span class="navbar-brand" href="#">Cacilds Store</span>
+				<a class="navbar-brand d-flex flex-row align-items-center" href="#">
+					<img src="../assets/mussum.jpg" width="50" height="50" class="mr-2 rounded-circle" alt="">
+					Cacilds Store
+				</a>
 
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Login <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Criar Conta</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
+				<button class="navbar-toggler" type="button">
+					<ion-icon name="menu-outline"></ion-icon>
+				</button>
 
-		<nav class="navbar navbar-expand bg-light navbar-light border-bottom">
-			<div class="container">
-				<ul class="navbar-nav mr-auto">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Produtos</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Promoções</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Contato</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Sobre Nós</a>
-					</li>
-				</ul>
+				<div class="collapse navbar-collapse mobile">
+					<ul class="navbar-nav ml-lg-auto underline">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Produtos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Promoções</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contato</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Sobre Nós</a>
+						</li>
+					</ul>
 
-				<ul class="navbar-nav">
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<ion-icon class="icons" name="cart-outline"></ion-icon>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">
-							<ion-icon class="icons" name="search-outline"></ion-icon>
-						</a>
-					</li>
-				</ul>
+					<ul class="navbar-nav d-flex flex-row ml-lg-4">
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<ion-icon class="orange-icons" name="cart-outline"></ion-icon>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">
+								<ion-icon class="orange-icons" name="search-outline"></ion-icon>
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</nav>
 	</header>
@@ -69,17 +65,14 @@
 		<div class="container mt-5">
 			<div class="details shadow-lg">
 				<div class="row">
-					<div class="col-md-5">
+					<div class="col-md-6 col-sm-12">
 						<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block w-100" src="assets/mochila.jpg" alt="First slide">
+									<img class="d-block w-100" src="../assets/mochila.jpg" alt="First slide">
 								</div>
 								<div class="carousel-item">
-									<img class="d-block w-100" src="assets/mochila.jpg" alt="Second slide">
-								</div>
-								<div class="carousel-item">
-									<img class="d-block w-100" src="assets/mochila.jpg" alt="Third slide">
+									<img class="d-block w-100" src="../assets/mochila.jpg" alt="Second slide">
 								</div>
 							</div>
 							<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -93,8 +86,8 @@
 						</div>
 					</div>
 
-					<div class="col-md-7">
-						<p class="tag text-center">Lançamento</p>
+					<div class="col-md-6">
+						<p class="tag text-center mt-4">Lançamento</p>
 
 						<div class="infos">
 							<h5 class="title">Mochila Para Acampamento</h5>
@@ -108,7 +101,7 @@
 						<button>Comprar</button>
 
 						<div class="row">
-							<div class="col-12">
+							<div class="col-md-12">
 								<div class="description">
 									<h2>Descrição</h2>
 
@@ -117,7 +110,7 @@
 										um
 										bebadis conhecidiss, que um alcoolatra anonimis. Nullam volutpat risus nec leo commodo, ut interdum
 										diam
-										laoreet. Sed non consequat odio. Sapien in monti palavris qui num significa nadis i pareci latim.
+										laoreet.
 									</p>
 								</div>
 							</div>
@@ -135,14 +128,14 @@
 			</div>
 
 			<div class="row">
-				<div class="col-3">
+				<div class="col-lg-3 col-md-6 mt-3">
 					<div class="card shadow-lg">
 						<div class="offer">
 							<ion-icon name="pricetags-outline"></ion-icon>
 							<h2>Oferta</h2>
 						</div>
 
-						<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
+						<img src="../assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Mochila Para Acampamento</h5>
 							<span class="price">R$ 59,99</span>
@@ -156,14 +149,14 @@
 					</div>
 				</div>
 
-				<div class="col-3">
+				<div class="col-lg-3 col-md-6 mt-3">
 					<div class="card shadow-lg">
 						<div class="offer">
 							<ion-icon name="pricetags-outline"></ion-icon>
 							<h2>Oferta</h2>
 						</div>
 
-						<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
+						<img src="../assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Mochila Para Acampamento</h5>
 							<span class="price">R$ 59,99</span>
@@ -177,14 +170,14 @@
 					</div>
 				</div>
 
-				<div class="col-3">
+				<div class="col-lg-3 col-md-6 mt-3">
 					<div class="card shadow-lg">
 						<div class="offer">
 							<ion-icon name="pricetags-outline"></ion-icon>
 							<h2>Oferta</h2>
 						</div>
 
-						<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
+						<img src="../assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Mochila Para Acampamento</h5>
 							<span class="price">R$ 59,99</span>
@@ -198,7 +191,7 @@
 					</div>
 				</div>
 
-				<div class="col-3">
+				<div class="col-lg-3 col-md-6 mt-3">
 					<div class="card shadow-lg">
 						<div class="offer">
 							<ion-icon name="pricetags-outline"></ion-icon>
@@ -206,7 +199,7 @@
 						</div>
 
 						<div>
-							<img src="assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
+							<img src="../assets/mochila.jpg" class="d-block w-100 card-img-top" alt="...">
 						</div>
 						<div class="card-body">
 							<h5 class="card-title">Mochila Para Acampamento</h5>
@@ -242,11 +235,14 @@
 		<div class="container">
 			<div class="footer-wrapper">
 				<div class="row">
-					<div class="col-3 d-flex justify-content-center align-items-center">
-						<span class="footer-title">Cacilds Store</span>
+					<div class="col-md-3 col-sm-12 mt-4 d-flex justify-content-center align-items-center">
+						<a class="footer-title mb-3 d-flex flex-column align-items-center" href="#">
+							<img src="../assets/mussum.jpg" width="70" height="70" class="mb-2 rounded-circle" alt="">
+							Cacilds Store
+						</a>
 					</div>
 
-					<div class="col-3">
+					<div class="col-md-3 col-sm-12 mt-4">
 						<h2>Informações</h2>
 
 						<ul>
@@ -265,7 +261,7 @@
 						</ul>
 					</div>
 
-					<div class="col-3">
+					<div class="col-md-3 col-sm-12 mt-4">
 						<h2>Minha Conta</h2>
 
 						<ul>
@@ -284,7 +280,7 @@
 						</ul>
 					</div>
 
-					<div class="col-3">
+					<div class="col-md-3 col-sm-12 mt-4">
 						<h2>Serviços</h2>
 
 						<ul>
@@ -303,23 +299,25 @@
 			</div>
 
 			<div class="d-flex justify-content-center">
-				<img src="assets/cards/visa.png" alt="Visa">
-				<img src="assets/cards/mastercard.png" alt="Mastercard">
-				<img src="assets/cards/boleto.png" alt="Boleto">
+				<img src="../assets/cards/visa.png" alt="Visa">
+				<img src="../assets/cards/mastercard.png" alt="Mastercard">
+				<img src="../assets/cards/boleto.png" alt="Boleto">
 			</div>
 
 			<p>Cacilds Store &copy; 2020. Todos os Direitos Reservados</p>
 		</div>
 	</footer>
 
+	<div class="overlay"></div>
+
 	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="../node_modules/jquery/dist/jquery.min.js"></script>
-	<script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
-	<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="../../node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="../../node_modules/popper.js/dist/umd/popper.min.js"></script>
+	<script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<!-- Ionicons -->
 	<script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
 	<!-- Optional JavaScript -->
-	<script src="./js/main.js"></script>
+	<script src="../js/scripts.js"></script>
 </body>
 
 </html>

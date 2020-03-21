@@ -46,11 +46,17 @@ nav {
     color: #fff;
     display: flex;
     padding: 0.5rem;
-    font-size: 25px;
+    font-size: 20px;
     cursor: pointer;
     align-self: center;
     border-radius: 0.8rem;
     background-color: #e67413;
+  }
+}
+
+.carousel {
+  &:hover {
+    cursor: pointer;
   }
 }
 
@@ -113,7 +119,7 @@ nav {
 }
 
 @media (max-width: 576px) {
-  .carousel {
+  .carousel-sm-hide {
     display: none;
   }
 }

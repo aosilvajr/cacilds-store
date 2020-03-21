@@ -89,7 +89,7 @@
 }
 
 .details .tag {
-  width: 25%;
+  width: 100px;
   color: #fff;
   padding: 0.2rem;
   font-weight: 700;
@@ -284,12 +284,16 @@ nav .orange-icons {
   display: -ms-flexbox;
   display: flex;
   padding: 0.5rem;
-  font-size: 25px;
+  font-size: 20px;
   cursor: pointer;
   -ms-flex-item-align: center;
       align-self: center;
   border-radius: 0.8rem;
   background-color: #e67413;
+}
+
+.carousel:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -353,7 +357,7 @@ nav .orange-icons {
 }
 
 @media (max-width: 576px) {
-  .carousel {
+  .carousel-sm-hide {
     display: none;
   }
 }
