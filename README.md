@@ -1,7 +1,7 @@
 # Desafio Jurunense
 
 ### Descrição do Projeto
-* e-commerce com dois layouts totalmente responsivo.
+* e-commerce com dois layouts responsivos.
 
 ### Tecnologias Utilizadas
 * HTML5/SCSS
