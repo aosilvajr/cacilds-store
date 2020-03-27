@@ -10,7 +10,7 @@
 * Live Sass Compiler (Uma extensão VSCode que ajuda a compilar / transpilar seus arquivos SASS / SCSS para arquivos CSS em tempo real com a atualização ao vivo do navegador)
 
 ### Instruções
-* Após efetuar o download do projeto executar o comando **yarn** ou **npm install** para baixar os pacotes adicionados ao projeto.
+* Após efetuar o download do projeto executar o comando **npm i** para baixar os pacotes adicionados ao projeto.
 
 
 ### Agradecimento
