@@ -1,12 +1,27 @@
 <h1 align="center">
 	Desafio Jurunense
 </h1>
-<p align="center">E-commerce com duas páginas responsivas utilizando Bootstrap 4</p>
+<p align="center">E-commerce apelidado de Cacilds Store com duas páginas responsivas sendo uma a home e a outra os detalhes do produto utilizando Bootstrap 4</p>
 
 <p align="center">
 	 <a href="https://cacilds-store.netlify.app/">
     <img src="https://api.netlify.com/api/v1/badges/ae974e0c-9da6-4234-ad27-8456e475b580/deploy-status">
   </a>
+</p>
+
+<p align="center">
+	<kbd>
+		<img style="border-radius: 5px; margin-top: 5px;" alt="Banner" src="src/assets/screenshots/cacilds-store-banner.PNG" />
+	</kbd>
+	<kbd>
+		<img style="border-radius: 5px" alt="Departments" src="src/assets/screenshots/cacilds-store-departments.PNG" />
+	</kbd>
+	<kbd>
+		<img style="border-radius: 5px" alt="Departments" src="src/assets/screenshots/cacilds-store-products.PNG" />
+	</kbd>
+	<kbd>
+		<img style="border-radius: 5px" alt="Departments" src="src/assets/screenshots/cacilds-store-details.PNG" />
+	</kbd>
 </p>
 
 
@@ -23,16 +38,15 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/aosilvajr/twitter-clone.git
+$ git clone https://github.com/aosilvajr/cacilds-store.git
 
 # Go into the repository
-$ cd twitter-clone
+$ cd cacilds-store
 
 # Install dependencies
-$ yarn install
+$ npm install
 
-# Run app
-$ yarn start
+# To run app just open the index.html in any browser or Live Server
 ```
 
 
