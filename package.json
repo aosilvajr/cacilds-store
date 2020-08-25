@@ -1,7 +1,7 @@
 {
-  "name": "desafio-jurunense",
+  "name": "cacilds-store",
   "version": "1.0.0",
-  "description": "Teste para candidatos à vaga de desenvolvedor Front-end na Jurunense",
+  "description": "Teste de seleção para a vaga de desenvolvedor Front-end na Jurunense",
   "author": "Ailton Júnior <aosilvajr@gmail.com>",
   "main": "index.js",
   "license": "MIT",
